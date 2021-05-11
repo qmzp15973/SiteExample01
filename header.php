@@ -1,11 +1,16 @@
-<h1>歡迎光臨我的網站</h1>
-<button><a href="/SiteExample01/">HOME</a></button>
-<button><a href="https://cla.nkust.edu.tw">博雅中心</a></button>
-<button><a href="http://tzukuan.nkust.org">計畫網站</a></button>
-<button><a href="/SiteExample01/videoindex.php">我的歌單</a></button>
-<select onchange='location.href="/SiteExample01/"+this.value'>
-	<option value="0323-1.php">請選擇要執行的練習</option>
-	<option value="0323-1.php">0323-1</option>
-	<option value="0323-2.php">0323-2</option>
-</select>
-<hr>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>邱奕雄的練習網頁</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+	<style>
+		body {
+				font-family: 微軟正黑體;
+			}
+	</style>
+</head>
+<body>
